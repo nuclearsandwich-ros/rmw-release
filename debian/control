@@ -1,0 +1,12 @@
+Source: ros-verystable-rmw-implementation-cmake
+Section: misc
+Priority: optional
+Maintainer: Dirk Thomas <dthomas@osrfoundation.org>
+Build-Depends: debhelper (>= 9.0.0), ros-verystable-ament-cmake, ros-verystable-ament-lint-auto, ros-verystable-ament-lint-common, ros-verystable-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-verystable-rmw-implementation-cmake
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-verystable-ament-cmake, ros-verystable-ros-workspace
+Description: CMake functions which can discover and enumerate available implementations.
