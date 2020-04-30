@@ -1,0 +1,12 @@
+Source: ros-verystable-rmw
+Section: misc
+Priority: optional
+Maintainer: Dirk Thomas <dthomas@osrfoundation.org>
+Build-Depends: debhelper (>= 9.0.0), ros-verystable-ament-cmake-gmock, ros-verystable-ament-cmake-ros, ros-verystable-ament-cmake-version, ros-verystable-ament-lint-auto, ros-verystable-ament-lint-common, ros-verystable-rcutils, ros-verystable-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-verystable-rmw
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-verystable-rcutils, ros-verystable-rosidl-generator-c, ros-verystable-ros-workspace
+Description: Contains the ROS middleware API.
