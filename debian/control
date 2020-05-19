@@ -1,0 +1,12 @@
+Source: ros-testing-rmw
+Section: misc
+Priority: optional
+Maintainer: Dirk Thomas <dthomas@osrfoundation.org>
+Build-Depends: debhelper (>= 9.0.0), ros-testing-ament-cmake-gmock, ros-testing-ament-cmake-ros, ros-testing-ament-cmake-version, ros-testing-ament-lint-auto, ros-testing-ament-lint-common, ros-testing-osrf-testing-tools-cpp, ros-testing-rcutils, ros-testing-rosidl-runtime-c, ros-testing-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-testing-rmw
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-testing-rcutils, ros-testing-rosidl-runtime-c, ros-testing-ros-workspace
+Description: Contains the ROS middleware API.
