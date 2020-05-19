@@ -1,0 +1,12 @@
+Source: ros-testing-rmw-implementation-cmake
+Section: misc
+Priority: optional
+Maintainer: Dirk Thomas <dthomas@osrfoundation.org>
+Build-Depends: debhelper (>= 9.0.0), ros-testing-ament-cmake, ros-testing-ament-lint-auto, ros-testing-ament-lint-common, ros-testing-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-testing-rmw-implementation-cmake
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-testing-ament-cmake, ros-testing-ros-workspace
+Description: CMake functions which can discover and enumerate available implementations.
